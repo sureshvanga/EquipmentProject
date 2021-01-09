@@ -18,7 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.sample.equipmentproject.Adapters.ExpandableAdapter;
-import com.sample.equipmentproject.Models.Root;
+import com.sample.equipmentproject.Models.Names;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 String strJson = loadJsonFromAssert();
                 Log.d("TAG", strJson);
                 Gson gson = new GsonBuilder().create();
-                Root[] root = gson.fromJson(strJson, Root[].class);
+                Names[] root = gson.fromJson(strJson, Names[].class);
                 runOnUiThread(() -> {
                     //Dynamic views
                     ConstraintLayout constraintLayout = findViewById(R.id.constraintLayout);

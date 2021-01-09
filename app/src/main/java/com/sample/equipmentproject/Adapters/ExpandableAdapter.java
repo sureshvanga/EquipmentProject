@@ -19,14 +19,14 @@ import androidx.core.content.ContextCompat;
 import androidx.core.widget.CompoundButtonCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.sample.equipmentproject.Models.Root;
+import com.sample.equipmentproject.Models.Names;
 import com.sample.equipmentproject.R;
 
 
 public class ExpandableAdapter extends RecyclerView.Adapter<ExpandableAdapter.ParentViewModel> {
-    Root[] roots;
+    Names[] roots;
     Context context;
-    public ExpandableAdapter(Root[] roots, Context context) {
+    public ExpandableAdapter(Names[] roots, Context context) {
         this.roots = roots;
         this.context = context;
     }

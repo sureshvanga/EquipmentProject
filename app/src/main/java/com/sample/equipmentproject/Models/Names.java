@@ -1,6 +1,6 @@
 package com.sample.equipmentproject.Models;
 
-public class Root {
+public class Names {
     public int id;
     public String vin;
     public int year;
