@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Equipment List</string>
+    <string name="doller">$</string>
+    <string name="ft">ft"</string>
+    <string name="vin">VIN</string>
+    <string name="year">Year</string>
+    <string name="make">Make</string>
+    <string name="value">Value</string>
+    <string name="length">Length</string>
+
+    <string name="one_space">\u0020</string>
+    <string name="up_arrow">up_arrow</string>
+    <string name="down_arrow">down_arrow</string>
+    <string name="choose_equipment">Choose Equipment</string>
+</resources>
